@@ -7,8 +7,7 @@ importScripts('https://www.gstatic.com/firebasejs/3.5.2/firebase-messaging.js');
 // Initialize the Firebase app in the service worker by passing in the
 // messagingSenderId.
 firebase.initializeApp({
-  'messagingSenderId': '182747176288',
-  authDomain: "dex-take-home.herokuapp.com",
+  'messagingSenderId': '182747176288'
 });
 
 // Retrieve an instance of Firebase Messaging so that it can handle background
