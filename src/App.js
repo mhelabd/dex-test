@@ -34,7 +34,6 @@ class App extends Component {
         this.userStorageRef = storage.ref('/user-files').child(currentUser.uid);
         this.contactsRef.on('value', (snapshot) => {
           let contactData = snapshot.val();
-          console.log(contactData)
           contactData = Object.keys(contactData).filter((key) => {
             const contact = contactData[key];
             return contact.date != null && contact.img != null && contact.name != null;
@@ -104,7 +103,7 @@ class App extends Component {
           </button>
         </div>
         <div className="padding-top padding-right AppBody">
-          {this.state.contactData !== [] ? (
+          {this.state.contactData.length !== 0 ? (
             this.state.contactData.map((contact) =>
               <Contact
                 key={contact.key}
@@ -114,7 +113,7 @@ class App extends Component {
               />
             )
           )
-            : <h2> No Contacts please use the "add Contacts" button</h2>
+            : <h2> No Contacts please make sure you are signed in and use the "add Contacts" button</h2>
           }
         </div>
       </div>
