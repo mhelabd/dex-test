@@ -64,7 +64,7 @@ class App extends Component {
   }
 
   signIn() {
-    auth.signInWithPopup(googleAuthProvider);
+    auth.signInWithRedirect(googleAuthProvider);
   }
 
   signOut() {
