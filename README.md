@@ -6,6 +6,7 @@
 > git clone 
 > cd dex-test
 > npm install
+> http://localhost:3000/
 ```
 - start project
 ```
@@ -15,3 +16,8 @@
 ```
 > npm build
 ```
+
+### In Web App
+
+- SIGN IN FIRST
+- Enjoy!
