@@ -2,7 +2,7 @@ import firebase from 'firebase';
 
 const config = {
   apiKey: 'AIzaSyDQK76eoBjvD0GfITzjK7qQuDFSdQVCyh0',
-  authDomain: 'https://dex-take-home.herokuapp.com',
+  authDomain: 'test-db-e095e.firebaseapp.com',
   databaseURL: 'https://test-db-e095e.firebaseio.com',
   projectId: 'test-db-e095e',
   storageBucket: 'test-db-e095e.appspot.com',
