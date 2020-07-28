@@ -7,11 +7,11 @@
 > cd dex-test
 > npm install
 ```
--start project
+- start project
 ```
 > npm start
 ```
--build project
+- build project
 ```
 > npm build
 ```
