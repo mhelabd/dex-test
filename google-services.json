@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "781432772081",
+    "firebase_url": "https://test-f34ad.firebaseio.com",
+    "project_id": "test-f34ad",
+    "storage_bucket": "test-f34ad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:781432772081:android:0e6727f66a30cb6f",
+        "android_client_info": {
+          "package_name": "com.github.shyiko.ktlint.Main"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "781432772081-v0ae1oveoefnp42ce96ir4ofgqoe5vl7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDi0diQmi1VBxScANpqtl4i94gSyU6bTG0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "781432772081-v0ae1oveoefnp42ce96ir4ofgqoe5vl7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
